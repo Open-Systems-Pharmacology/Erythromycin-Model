@@ -1,9 +1,8 @@
 # Erythromycin-Model
 Whole-body PBPK model of erythromycin as CYP3A4 perpetrator drug
 
-<p align="center">
-  <img src="Erythromycin.png">
-</p> 
+<a title="Ed (Edgar181) / Public domain" href="https://commons.wikimedia.org/wiki/File:Erythromycin_A_skeletal.svg"><img width="256" alt="Erythromycin A skeletal" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Erythromycin_A_skeletal.svg/256px-Erythromycin_A_skeletal.svg.png"></a>
+
 This repository contains:
 
 - a PK-Sim snapshot (*.json) file of the current PBPK model
