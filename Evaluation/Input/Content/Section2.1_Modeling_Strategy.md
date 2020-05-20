@@ -12,8 +12,8 @@ Unknown parameters were simultaneously optimized using all available PK data, in
 Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility. The following parameters were identified using the Parameter Identification module provided in PK-Sim® and MoBi® ([Open Systems Pharmacology Documentation](#5-References)):
 
 - `Specific intestinal permeability (transcellular)`
-- `Transport Protein - OATP1B1 - kact`
-- `Metabolizing Enzyme - CYP3A4 - kact`
+- `Transport Protein - OATP1B1 - kcat`
+- `Metabolizing Enzyme - CYP3A4 - kcat`
 - `Total Hepatic Clearance - Specific clearance`
 - `GFR fraction`
 - `Dissolution shape` (for the film-coated tablet containing erythromycin stearate)
