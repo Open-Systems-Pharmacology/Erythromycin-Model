@@ -16,15 +16,12 @@ Structural model selection was mainly guided by visual inspection of the resulti
 - `Metabolizing Enzyme - CYP3A4 - kcat`
 - `Total Hepatic Clearance - Specific clearance`
 - `GFR fraction`
-- `Dissolution shape` (for the film-coated tablet containing erythromycin stearate)
-- `Dissolution time (50% dissolved)` (for the film-coated tablet containing erythromycin stearate)
-- `Dissolution lag time` (for the enteric-coated tablet containing erythromycin as base)
-- `Dissolution shape` (for the enteric-coated tablet containing erythromycin as base)
-- `Dissolution time (50% dissolved)` (for the enteric-coated tablet containing erythromycin as base)
-- `Solubility at reference pH` (for the enteric-coated tablet containing erythromycin as base)
-- `Dissolution lag time` (for the enteric-coated capsule containing pellets of erythromycin as base)
-- `Dissolution shape` (for the enteric-coated capsule containing pellets of erythromycin as base)
-- `Dissolution time (50% dissolved)` (for the enteric-coated capsule containing pellets of erythromycin as base)
+- `K_kinact_half` 
+- `kinact` 
+- `Dissolution shape` (separately for the film-coated tablet containing erythromycin stearate, the enteric-coated tablet containing erythromycin as base, and the enteric-coated capsule containing pellets of erythromycin as base)
+- `Dissolution time (50% dissolved)` (separately for the film-coated tablet containing erythromycin stearate, the enteric-coated tablet containing erythromycin as base, and the enteric-coated capsule containing pellets of erythromycin as base)
+- `Dissolution lag time` (separately for the enteric-coated tablet containing erythromycin as base and the enteric-coated capsule containing pellets of erythromycin as base)
+- `Solubility at reference pH` (only for the enteric-coated tablet containing erythromycin as base)
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
