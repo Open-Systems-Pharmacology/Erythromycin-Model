@@ -23,7 +23,7 @@ PKSimPortableFolder = 'C:\Software\pk-sim-portable-setup\PK-Sim_9.0.165';
 %   - report
 %
 
-basisDir = 'C:\GitHub\OSP\Erythromycin-Model\Evaluation\';
+basisDir = 'C:\OSP\Erythromycin-Model\Evaluation\';
 qualificationPlanName = 'evaluation_plan.json';
 
 % In case your folder structure is different from assumed above, 
