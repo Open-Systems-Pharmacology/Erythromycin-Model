@@ -82,7 +82,7 @@ The data listed in the Table above can be statistically summarized as follows:
 | K<sub>I</sub> [µM]                   | 0.420  | 4.89   | 8.71           | 10.9   | 18.4            | 19.3   | 109   |
 | k<sub>inact</sub> [min<sup>-1</sup>] | 0.0115 | 0.0314 | 0.0504         | 0.0535 | 0.0664          | 0.0772 | 0.340 |
 
-### 2.2.3	Clinical data
+### 2.2.3 Clinical data
 
 A literature search was carried out to collect available PK data on erythromycin in healthy adults. The following data from the publications listed below were used for model building and evaluation:
 
