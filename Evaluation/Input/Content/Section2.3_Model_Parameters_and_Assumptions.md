@@ -46,7 +46,7 @@ Additional elimination pathways suggested for erythromycin are acid-catalyzed de
 
 The reported dose fractions of erythromycin undergoing unchanged renal excretion after IV administration range from 0.018 ± 0.005 to 0.171 ± 0.11 (mean ± SD) ([Pasic 1987](#5-References), [Austin 1980](#5-References)). This information was accounted for in the model by implementing a glomerular filtration process and optimizing the `GFR fraction` to match the observed dose fractions excreted unchanged in urine.
 
-### 2.3.2	Autoinhibition
+### 2.3.4 Autoinhibition
 
 In the scientific literature, large ranges have been reported for K<sub>I</sub> and k<sub>inact</sub> ([Section 2.2.2](#222-In-vitro-data-on-mechanism-based-inhibition-of-CYP3A)). Since the exact values are unknown,  `K_kinact_half` and `kinact` were both optimized within the observed range (see [Section 2.2.2](#222-In-vitro-data-on-mechanism-based-inhibition-of-CYP3A)) during model building to best match the observed clinical data. 
 
