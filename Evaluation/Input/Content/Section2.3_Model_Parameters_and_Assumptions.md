@@ -18,7 +18,7 @@ Relatively few PK data were available for enteric-coated tablets containing eryt
 
 #### 2.3.1.3	Enteric-coated capsule containing pellets of erythromycin as free base
 
-Comparison of the reported erythromycin PK following administration of different doses of enteric-coated capsules containing pellets of erythromycin base showed large variability in C<sub>max</sub> and t<sub>max</sub> both within and between different doses (dose range: 250 mg - 1000 mg). Here, dissolution kinetics was also described by the Weibull function with relevant parameters (`Dissolution shape`, `Dissolution time (50% dissolved)` and `lag time`) being optimized to better describe clinical data. However, optimizing solubility did not result in a better description of the observed PK profiles. Consequently, solubility of erythromycin in this formulation type was fixed to a high value (500 mg/L) to avoid any solubility-limitations.
+Comparison of the reported erythromycin PK following administration of different doses of enteric-coated capsules containing pellets of erythromycin base showed large variability in C<sub>max</sub> and t<sub>max</sub> both within and between different doses (dose range: 250 mg - 1000 mg). Here, dissolution kinetics was also described by the Weibull function with relevant parameters (`Dissolution shape`, `Dissolution time (50% dissolved)` and `lag time`) being optimized to better describe clinical data. However, optimizing solubility did not result in a better description of the observed PK profiles. Consequently, solubility of erythromycin in this formulation type was fixed to a high value (500 mg/L) to avoid any solubility-related limitations in dissolution and absorption.
 
 
 
@@ -51,3 +51,31 @@ The reported dose fractions of erythromycin undergoing unchanged renal excretion
 In the scientific literature, large ranges have been reported for K<sub>I</sub> and k<sub>inact</sub> ([Section 2.2.2](#222in-vitro-data-on-mechanism-based-inhibition-of-cyp3a)). Since the exact values are unknown,  `K_kinact_half` and `kinact` were both optimized within the observed range (see [Section 2.2.2](#222in-vitro-data-on-mechanism-based-inhibition-of-cyp3a)) during model building to best match the observed clinical data. 
 
 To better inform optimization of these two parameters, clinical data of a midazolam-erythromycin interaction study conducted by Olkkola et al. ([Olkkola 1993](#5-References)) were included in the parameter optimization during model building. Therefore, the midazolam PBPK model v0.9 available on OSP GitHub (https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/0.9) was loaded in the PK-Sim® erythromycin file and the study by Olkkola et al. ([Olkkola 1993](#5-References)) was simulated. However, instead of using the reported midazolam plasma concentrations as observed data in the parameter identification, the AUC of midazolam was used. More specifically, a midazolam target AUC after IV and oral administration was calculated by multiplying the simulated midazolam AUC (24.3 and 54.0 µmol min/L and after IV and oral administration, respectively) with the observed geometric mean AUC ratio (1.96 and 4.07 after IV and PO administration, respectively) ([Olkkola 1993](#5-References)) resulting in target AUCs of 47.4 and 220 µmol min/L after IV and oral administration of midazolam, respectively. These values were included as observed data values in the parameter identification during model building. Since the AUC is not a default output that can directly be used in the parameter identification, the PBPK model structure was modified prior to running the parameter identification as described in the following. After exporting the model to MoBi®, an artificial reaction of a dummy molecule was created. The reaction rate was defined as the simulated peripheral venous blood plasma concentration of midazolam, hence yielding the AUC at any specific time point. Thereafter, the model was imported in PK-Sim® and included in the parameter identification. After being used in the parameter identification during model building, the model was not used any further. 
+
+### 2.3.5 Automated Parameter Identification
+
+This is the result of the final parameter identification:
+
+| Model Parameter                     | Formulation type/salt form               | Optimized Value  | Unit   |
+| ----------------------------------- | ---------------------------------------- | ---------------- | ------ |
+| `Dissolution shape `                | Enteric coated pellets                   | 1.0564916105     |        |
+| `Dissolution shape `                | Enteric coated tablet                    | 1.0838799888     |        |
+| `Dissolution shape `                | Filmcoated tablet (except 250 mg dose)   | 1.0960212213     |        |
+| `Dissolution shape `                | Filmcoated tablet, 250 mg                | 3.2811974117     |        |
+| `Dissolution time (50% dissolved) ` | Enteric coated pellets                   | 1.7462743767     | min    |
+| `Dissolution time (50% dissolved) ` | Enteric coated tablet                    | 79.6337524677    | min    |
+| `Dissolution time (50% dissolved) ` | Filmcoated tablet (except 250 mg dose)   | 1.7038947098     | min    |
+| `Dissolution time (50% dissolved) ` | Filmcoated tablet, 250 mg                | 83.6562552486    | min    |
+| `GFR fraction`                      |                                          | 1.1591081815     |        |
+| `K_kinact_half` (CYP3A4)            |                                          | 7.6007360452     | µmol/L |
+| `kcat` (OATP1B1)                    |                                          | 2.0201069202     | 1/min  |
+| `kinact` (CYP3A4)                   |                                          | 0.0296261146     | 1/min  |
+| `Km` (OATP1B1)                      |                                          | 0.735836485      | µmol/L |
+| `Lag time`                          | Enteric coated pellets                   | 54.3490442506    | min    |
+| `Lag time`                          | Enteric coated tablet                    | 78.7967495765    | min    |
+| `Solubility at ref pH`              | Enteric coated tablet, erythromycin base | 8.3990771997     | mg/L   |
+| `Solubility at ref pH`              | Filmcoated tablet, erythromycin stearate | 28.0708790976    | mg/L   |
+| `Specific clearance`                |                                          | 4.1462183378     | 1/min  |
+| `Specific intestinal permeability`  |                                          | 0.00038668371665 | cm/min |
+
+<sup>*</sup> The value was set to 1.350032201 /min with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10)).
