@@ -10306,7 +10306,7 @@
             },
             {
               "Name": "kcat",
-              "Value": 2.0201069202,
+              "Value": 1.350032201,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
