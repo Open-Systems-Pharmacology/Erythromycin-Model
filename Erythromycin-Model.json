@@ -10306,7 +10306,7 @@
             },
             {
               "Name": "kcat",
-              "Value": 2.0201069202,
+              "Value": 1.350032201,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -21266,7 +21266,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Erythromycin-Model\nTreatment_Olkkola1993_IV\n2021-09-06 15:25"
+          "OriginText": "Erythromycin_v05_OATP1B1_Test (3)\nTreatment_Olkkola1993_IV\n2020-01-13 16:28"
         }
       ],
       "Interactions": [
@@ -21436,7 +21436,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Erythromycin-Model\nControl_Olkkola1993_IV\n2021-09-06 15:23"
+          "OriginText": "Erythromycin_v04\nControl_Olkkola1993_IV\n2019-12-03 11:55"
         }
       ]
     },
@@ -22056,7 +22056,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Erythromycin-Model\nControl_Olkkola1993_PO\n2021-09-06 15:23"
+          "OriginText": "Erythromycin_v04\nControl_Olkkola1993_PO\n2019-12-03 12:00"
         }
       ]
     },
@@ -25006,7 +25006,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Erythromycin-Model\nTreatment_Olkkola1993_Oral\n2021-09-06 15:26"
+          "OriginText": "Erythromycin\nTreatment_Olkkola1993_Oral\n2020-01-14 15:52"
         }
       ],
       "Interactions": [
