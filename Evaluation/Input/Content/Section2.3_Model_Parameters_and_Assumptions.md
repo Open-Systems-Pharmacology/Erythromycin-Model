@@ -56,26 +56,26 @@ To better inform optimization of these two parameters, clinical data of a midazo
 
 This is the result of the final parameter identification:
 
-| Model Parameter                     | Formulation type/salt form               | Optimized Value  | Unit   |
-| ----------------------------------- | ---------------------------------------- | ---------------- | ------ |
-| `Dissolution shape `                | Enteric coated pellets                   | 1.0564916105     |        |
-| `Dissolution shape `                | Enteric coated tablet                    | 1.0838799888     |        |
-| `Dissolution shape `                | Filmcoated tablet (except 250 mg dose)   | 1.0960212213     |        |
-| `Dissolution shape `                | Filmcoated tablet, 250 mg                | 3.2811974117     |        |
-| `Dissolution time (50% dissolved) ` | Enteric coated pellets                   | 1.7462743767     | min    |
-| `Dissolution time (50% dissolved) ` | Enteric coated tablet                    | 79.6337524677    | min    |
-| `Dissolution time (50% dissolved) ` | Filmcoated tablet (except 250 mg dose)   | 1.7038947098     | min    |
-| `Dissolution time (50% dissolved) ` | Filmcoated tablet, 250 mg                | 83.6562552486    | min    |
-| `GFR fraction`                      |                                          | 1.1591081815     |        |
-| `K_kinact_half` (CYP3A4)            |                                          | 7.6007360452     | µmol/L |
-| `kcat` (OATP1B1)                    |                                          | 2.0201069202     | 1/min  |
-| `kinact` (CYP3A4)                   |                                          | 0.0296261146     | 1/min  |
-| `Km` (OATP1B1)                      |                                          | 0.735836485      | µmol/L |
-| `Lag time`                          | Enteric coated pellets                   | 54.3490442506    | min    |
-| `Lag time`                          | Enteric coated tablet                    | 78.7967495765    | min    |
-| `Solubility at ref pH`              | Enteric coated tablet, erythromycin base | 8.3990771997     | mg/L   |
-| `Solubility at ref pH`              | Filmcoated tablet, erythromycin stearate | 28.0708790976    | mg/L   |
-| `Specific clearance`                |                                          | 4.1462183378     | 1/min  |
-| `Specific intestinal permeability`  |                                          | 0.00038668371665 | cm/min |
+| Model Parameter                     | Formulation type/salt form               | Optimized Value          | Unit   |
+| ----------------------------------- | ---------------------------------------- | ------------------------ | ------ |
+| `Dissolution shape `                | Enteric coated pellets                   | 1.0564916105             |        |
+| `Dissolution shape `                | Enteric coated tablet                    | 1.0838799888             |        |
+| `Dissolution shape `                | Filmcoated tablet (except 250 mg dose)   | 1.0960212213             |        |
+| `Dissolution shape `                | Filmcoated tablet, 250 mg                | 3.2811974117             |        |
+| `Dissolution time (50% dissolved) ` | Enteric coated pellets                   | 1.7462743767             | min    |
+| `Dissolution time (50% dissolved) ` | Enteric coated tablet                    | 79.6337524677            | min    |
+| `Dissolution time (50% dissolved) ` | Filmcoated tablet (except 250 mg dose)   | 1.7038947098             | min    |
+| `Dissolution time (50% dissolved) ` | Filmcoated tablet, 250 mg                | 83.6562552486            | min    |
+| `GFR fraction`                      |                                          | 1.1591081815             |        |
+| `K_kinact_half` (CYP3A4)            |                                          | 7.6007360452             | µmol/L |
+| `kcat` (OATP1B1)                    |                                          | 2.0201069202<sup>*</sup> | 1/min  |
+| `kinact` (CYP3A4)                   |                                          | 0.0296261146             | 1/min  |
+| `Km` (OATP1B1)                      |                                          | 0.735836485              | µmol/L |
+| `Lag time`                          | Enteric coated pellets                   | 54.3490442506            | min    |
+| `Lag time`                          | Enteric coated tablet                    | 78.7967495765            | min    |
+| `Solubility at ref pH`              | Enteric coated tablet, erythromycin base | 8.3990771997             | mg/L   |
+| `Solubility at ref pH`              | Filmcoated tablet, erythromycin stearate | 28.0708790976            | mg/L   |
+| `Specific clearance`                |                                          | 4.1462183378             | 1/min  |
+| `Specific intestinal permeability`  |                                          | 0.00038668371665         | cm/min |
 
-<sup>*</sup> The value was set to 1.350032201 /min with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10)).
+<sup>*</sup> The value in the model was updated to 1.350032201 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10.0)).
