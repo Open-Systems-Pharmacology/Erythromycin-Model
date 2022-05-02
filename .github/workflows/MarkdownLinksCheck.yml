@@ -2,8 +2,8 @@ name: Check Markdown links
 
 on: 
   push:
-#    branches:
-#      - review
+    branches:
+      - review
  
 jobs:
   markdown-link-check:
