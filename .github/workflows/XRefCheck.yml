@@ -8,5 +8,5 @@ on:
 jobs:
   crossref-check-without-anchors:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/XRefCheck.yml@main
-    with:
-      ignored-folders: 'Evaluation/Input'
+#    with:
+#      ignored-folders: 'Evaluation/Input'
