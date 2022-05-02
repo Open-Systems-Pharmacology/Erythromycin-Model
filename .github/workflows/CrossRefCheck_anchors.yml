@@ -6,7 +6,7 @@ on:
 #      - review
  
 jobs:
-  markdown-link-check:
+  crossref-check-with-anchors:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
 #    with:
 #      folder-path: 'Evaluation/report'
