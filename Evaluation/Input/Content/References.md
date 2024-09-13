@@ -34,6 +34,8 @@
 
 **drugbank** (https://www.drugbank.ca/drugs/DB00199), accessed on 05-14-2018.
 
+**Eberl 2007** Eberl S, Renner B, Neubert A, Reisig M, Bachmakov I, König J, Dörje F, Mürdter TE, Ackermann A, Dormann H, Gassmann KG, Hahn EG, Zierhut S, Brune K, Fromm MF. Role of p-glycoprotein inhibition for drug interactions: evidence from in vitro and pharmacoepidemiological studies. *Clin Pharmacokinet* 2007, 46(12): 1039-1049.
+
 **Henry 1980** Henry J, Turner P, Garland M, Esmieu F. Plasma and salivary concentrations of erythromycin after administration of three different formulations. *Postgrad Med J* 1980, 56(660): 707-710.
 
 **Huppertz 2011** Huppertz A, Breuer J, Fels LM, Schultze‐Mosgau M, Sutter G, Klein S, et al. Evaluation of possible drug–drug interaction between gadoxetic acid and erythromycin as an inhibitor of organic anion transporting peptides (OATP). *J Magn Reson Imaging* 2011, 33(2): 409-416.
