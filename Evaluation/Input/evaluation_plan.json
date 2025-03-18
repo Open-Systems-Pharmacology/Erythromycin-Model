@@ -122,198 +122,198 @@
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_1000mg_Huppertz2011",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_125mg_Austin1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_125mg_Sun2010",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_250mg_3min_Austin1980",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_250mg_Austin1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_300mg_Pasic1987",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_500mg_Austin1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_500mg_Barre1987",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_500mg_Simon1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "IV_900mg_Austin1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "1000mg_Josefsson1982a_pellets",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Birkett1990_SD",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Birkett1990_MD",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Josefsson1982a_pellets",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Josefsson1982a_pellets",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Kivistö1997_pellets_MD",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Schreiner1984_pellets",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Yakatan1980_base_MD",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_DiSanto1981",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Kroboth1982",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Posti1982_E",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "1000mg_Miglioli1990_MD",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "1500mg_Shanson1984",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Yakatan1979",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Yakatan1980_stearate",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "250mg_Yakatan1980_stearate_MD",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Berend1979_MD",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Brannan1995_MD",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Henry1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Iliopoulou1982_MD",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Josefsson1982a",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Kavi1988",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Malmborg1978_MD",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Parsons1977",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Posti1983_A1",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Posti1983_A2/RN",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Schreiner1984_stearate",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Erythromycin",
                 "Simulation": "500mg_Simon1980",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             }
         ],
         "GOFMergedPlots": [
             {
                 "Title": "Goodness of fit plot for concentration in plasma",
-                "SectionId": 32,
+                "SectionReference": "diagnostics-plots",
                 "PlotTypes": [
                     "predictedVsObserved",
                     "residualsOverTime"
@@ -375,14 +375,10 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "1000mg_Miglioli1990_MD",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Miglioli 1990 - First dose, young subjects - Erythromycin - PO - 1 g - Serum - agg. (n=8)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "1000mg_Miglioli1990_MD",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Miglioli 1990 - Seventh dose, young subjects - Erythromycin - PO - 1 g - Serum - agg. (n=8)",
+                                "ObservedData": [
+                                    "Miglioli 1990 - First dose, young subjects - Erythromycin - PO - 1 g - Serum - agg. (n=8)",
+                                    "Miglioli 1990 - Seventh dose, young subjects - Erythromycin - PO - 1 g - Serum - agg. (n=8)"
+                                ],
                                 "Color": "#1f78b4"
                             },
                             {
@@ -410,21 +406,11 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "500mg_Malmborg1978_MD",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Malmborg 1978 - Single dose after overnight fast - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_Malmborg1978_MD",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Malmborg 1978 - Single dose before standardized breakfast - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_Malmborg1978_MD",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Malmborg 1978 - Day 7, every 8 h - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)",
+                                "ObservedData": [
+                                    "Malmborg 1978 - Single dose after overnight fast - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)",
+                                    "Malmborg 1978 - Single dose before standardized breakfast - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)",
+                                    "Malmborg 1978 - Day 7, every 8 h - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)"
+                                ],
                                 "Color": "#1f78b4"
                             },
                             {
@@ -438,14 +424,10 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "500mg_Posti1983_A2/RN",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Posti 1983 - Formulation A2 (film-coated tabet, ery stearate), study 2 - Erythromycin - PO - 500 mg - Serum - agg. (n=12)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_Posti1983_A2/RN",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Posti 1983 - Formulation RN (film-coated tabet, ery stearate), study 2 - Erythromycin - PO - 500 mg - Serum - agg. (n=12)",
+                                "ObservedData": [
+                                    "Posti 1983 - Formulation A2 (film-coated tabet, ery stearate), study 2 - Erythromycin - PO - 500 mg - Serum - agg. (n=12)",
+                                    "Posti 1983 - Formulation RN (film-coated tabet, ery stearate), study 2 - Erythromycin - PO - 500 mg - Serum - agg. (n=12)"
+                                ],
                                 "Color": "#1f78b4"
                             }
                         ]
@@ -458,14 +440,10 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "500mg_DiSanto1981",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "DiSanto 1981 - Overnight fast, enteric-coated erythromycin tablets (study 1) - Erythromycin - PO - 500 mg - Serum - agg. (n=21)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_DiSanto1981",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "DiSanto 1981 - 2h fast, enteric-coated erythromycin tablets (study 2) - Erythromycin - PO - 500 mg - Serum - agg. (n=12)",
+                                "ObservedData": [
+                                    "DiSanto 1981 - Overnight fast, enteric-coated erythromycin tablets (study 1) - Erythromycin - PO - 500 mg - Serum - agg. (n=21)",
+                                    "DiSanto 1981 - 2h fast, enteric-coated erythromycin tablets (study 2) - Erythromycin - PO - 500 mg - Serum - agg. (n=12)"
+                                ],
                                 "Color": "#1f78b4"
                             },
                             {
@@ -560,35 +538,13 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "250mg_Yakatan1979",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yakatan 1979 - Manufacturer Abbott - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "250mg_Yakatan1979",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yakatan 1979 - Manufacturer Barr - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "250mg_Yakatan1979",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yakatan 1979 - Manufacturer Bristol - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "250mg_Yakatan1979",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yakatan 1979 - Manufacturer Mylan - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "250mg_Yakatan1979",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yakatan 1979 - Manufacturer Purepac - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
+                                "ObservedData": [
+                                    "Yakatan 1979 - Manufacturer Abbott - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
+                                    "Yakatan 1979 - Manufacturer Barr - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
+                                    "Yakatan 1979 - Manufacturer Bristol - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
+                                    "Yakatan 1979 - Manufacturer Mylan - Erythromycin - PO - 250 mg - Serum - agg. (n=10)",
+                                    "Yakatan 1979 - Manufacturer Purepac - Erythromycin - PO - 250 mg - Serum - agg. (n=10)"
+                                ],
                                 "Color": "#b2df8a"
                             },
                             {
@@ -630,28 +586,20 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "500mg_Parsons1977",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Parsons 1977 - Erythromycin stearate, supine, normal subjects - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_Parsons1977",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Parsons 1977 - Erythromycin stearate, walking, normal subjects - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_Schreiner1984_stearate",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Schreiner 1984 - Part I, stearate tablet - Erythromycin - PO - 500 mg - Serum - agg. (n=14)",
+                                "ObservedData": [
+                                    "Parsons 1977 - Erythromycin stearate, supine, normal subjects - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)",
+                                    "Parsons 1977 - Erythromycin stearate, walking, normal subjects - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)"
+                                ],
                                 "Color": "#b2df8a"
                             },
                             {
                                 "Project": "Erythromycin",
                                 "Simulation": "500mg_Schreiner1984_stearate",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Schreiner 1984 - Part II, stearate tablet - Erythromycin - PO - 500 mg - Serum - agg. (n=10)",
+                                "ObservedData": [
+                                    "Schreiner 1984 - Part I, stearate tablet - Erythromycin - PO - 500 mg - Serum - agg. (n=14)",
+                                    "Schreiner 1984 - Part II, stearate tablet - Erythromycin - PO - 500 mg - Serum - agg. (n=10)"
+                                ],
                                 "Color": "#b2df8a"
                             },
                             {
@@ -712,14 +660,10 @@
                                 "Project": "Erythromycin",
                                 "Simulation": "500mg_Schreiner1984_pellets",
                                 "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Schreiner 1984 - Part I, base (enteric-coated pellets) - Erythromycin - PO - 500 mg - Serum - agg. (n=14)",
-                                "Color": "#b2df8a"
-                            },
-                            {
-                                "Project": "Erythromycin",
-                                "Simulation": "500mg_Schreiner1984_pellets",
-                                "Output": "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Schreiner 1984 - Part II, base (enteric-coated pellets) - Erythromycin - PO - 500 mg - Serum - agg. (n=10)",
+                                "ObservedData": [
+                                    "Schreiner 1984 - Part I, base (enteric-coated pellets) - Erythromycin - PO - 500 mg - Serum - agg. (n=14)",
+                                    "Schreiner 1984 - Part II, base (enteric-coated pellets) - Erythromycin - PO - 500 mg - Serum - agg. (n=10)"
+                                ],
                                 "Color": "#b2df8a"
                             }
                         ]
@@ -736,83 +680,83 @@
             "Name": "Erythromycin",
             "Project": "Erythromycin",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Erythromycin_Weibull_enteric-coated-pellets",
             "Project": "Erythromycin",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Erythromycin_Weibull_enteric-coated-tablet",
             "Project": "Erythromycin",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Erythromycin_Weibull_filmtablet",
             "Project": "Erythromycin",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
-                    "Title": "2.1 Modeling Strategy",
+                    "Reference": "modeling-strategy",
+                    "Title": "Modeling Strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md"
                 },
                 {
-                    "Id": 22,
-                    "Title": "2.2 Data",
+                    "Reference": "data",
+                    "Title": "Data",
                     "Content": "Content/Section2.2_Data.md"
                 },
                 {
-                    "Id": 23,
-                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Reference": "model-parameters-and-assumptions",
+                    "Title": "Model Parameters and Assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
                 }
             ]
         },
         {
-            "Id": 3,
-            "Title": "3 Results and Discussion",
+            "Reference": "results-and-discussion",
+            "Title": "Results and Discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Sections": [
                 {
-                    "Id": 31,
-                    "Title": "3.1 Final input parameters",
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
                     "Content": "Content/Input_table.md"
                 },
                 {
-                    "Id": 32,
-                    "Title": "3.2 Diagnostics Plots",
+                    "Reference": "diagnostics-plots",
+                    "Title": "Diagnostics Plots",
                     "Content": "Content/GOF_diagnostics.md"
                 },
                 {
-                    "Id": 33,
-                    "Title": "3.3 Concentration-Time Profiles",
+                    "Reference": "ct-profiles",
+                    "Title": "Concentration-Time Profiles",
                     "Content": "Content/Concentration_time_profiles.md",
                     "Sections": [
                         {
-                            "Id": 331,
-                            "Title": "3.3.1 Model Building",
+                            "Reference": "model-building",
+                            "Title": "Model Building",
                             "Content": "Content/Concentration_time_profiles_building.md"
                         },
                         {
-                            "Id": 332,
-                            "Title": "3.3.2 Model Verification",
+                            "Reference": "model-verification",
+                            "Title": "Model Verification",
                             "Content": "Content/Concentration_time_profiles_verification.md"
                         }
                     ]
@@ -820,13 +764,13 @@
             ]
         },
         {
-            "Id": 4,
-            "Title": "4 Conclusion",
+            "Reference": "conclusion",
+            "Title": "Conclusion",
             "Content": "Content/Section4_Conclusion.md"
         },
         {
-            "Id": 5,
-            "Title": "5 References",
+            "Reference": "main-references",
+            "Title": "References",
             "Content": "Content/References.md"
         }
     ],
