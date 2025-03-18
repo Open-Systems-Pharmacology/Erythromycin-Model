@@ -1,5 +1,5 @@
 {
-  "Version": 79,
+  "Version": 80,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -12961,13 +12961,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|DDI_Olkkola1993_MID_IV_0h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|DDI_Olkkola1993_MID_IV_0h|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
           "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Control_Olkkola1993_IV|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)"
+        }
       ],
       "Individual": "Olkkola1993",
       "Compounds": [
@@ -13141,7 +13148,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|DDI_Olkkola1993_MID_po_0h|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_MID_po_0h|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -13324,6 +13331,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Control_Olkkola1993_PO|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Olkkola1993",
       "Compounds": [
@@ -13547,97 +13561,97 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_MID_IV_128h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|DDI_Olkkola1993_MID_IV_128h|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
           "Unit": "min"
         },
@@ -13663,6 +13677,48 @@
         "Organism|Liver|Periportal|Intracellular|CYP3A4|Concentration in container",
         "Organism|Liver|Periportal|Intracellular|UGT1A4|Concentration in container",
         "Organism|Liver|Periportal|Intracellular|Undefined Liver|Concentration in container"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator (Erythromycin) - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator (Erythromycin) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator, Ind01 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator, Ind02 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator, Ind03 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator, Ind04 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator, Ind05 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_IV|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - iv with Perpetrator, Ind06 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        }
       ],
       "Individual": "Olkkola1993",
       "Compounds": [
@@ -13982,97 +14038,97 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_ERY_500mg_tid_6days|Erythromycin_Weibull_enteric-coated-tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|DDI_Olkkola1993_MID_po_128h|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|DDI_Olkkola1993_MID_po_128h|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -14274,6 +14330,73 @@
         "Organism|Liver|Periportal|Intracellular|CYP3A4|Concentration in container",
         "Organism|Liver|Periportal|Intracellular|UGT1A4|Concentration in container",
         "Organism|Liver|Periportal|Intracellular|Undefined Liver|Concentration in container"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator (Erythromycin) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind01 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind02 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind03 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind04 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind05 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind06 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind07 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind08 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind09 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind10 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind11 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Treatment_Olkkola1993_Oral|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Olkkola 1993 - po with Perpetrator, Ind12 - Erythromycin - PO - 500 mg - Plasma - indiv."
+        }
       ],
       "Individual": "Olkkola1993",
       "Compounds": [
@@ -14671,7 +14794,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_1000mg_60min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_1000mg_60min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
@@ -14693,6 +14816,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_1000mg_Huppertz2011|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Huppertz 2011 - Treatment group, erythromycin - Erythromycin - IV - 1000 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Huppertz2011",
       "Compounds": [
@@ -14866,7 +14996,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_125mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_125mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -14889,6 +15019,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_125mg_Austin1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Austin 1980 - 125 mg over 15 min (Regimen 2) - Erythromycin - IV - 125 mg - Serum - agg. (n=5)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_125mg_Austin1980|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Austin 1980 - 125 mg over 15 min (Regimen 2) - Erythromycin - IV - 125 mg - Urine - agg. (n=5)"
+        }
       ],
       "Individual": "Austin1980",
       "Compounds": [
@@ -15133,7 +15275,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_125mg_30min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_125mg_30min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
           "Unit": "min"
         },
@@ -15156,6 +15298,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_125mg_Sun2010|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Sun 2010 - Subjects with normal renal function - Erythromycin - IV - 125 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_125mg_Sun2010|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Sun 2010 - Subjects with normal renal function - Erythromycin - IV - 125 mg - Urine - agg. (n=12)"
+        }
       ],
       "Individual": "Sun2010",
       "Compounds": [
@@ -15408,7 +15562,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_250mg_3min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_250mg_3min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 3.0,
           "Unit": "min"
         },
@@ -15431,6 +15585,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_250mg_3min_Austin1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Austin 1980 - 250 mg over 3 min (Regimen 1) - Erythromycin - IV - 250 mg - Serum - agg. (n=24)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_250mg_3min_Austin1980|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Austin 1980 - 250 mg over 3 min (Regimen 1) - Erythromycin - IV - 250 mg - Urine - agg. (n=24)"
+        }
       ],
       "Individual": "Austin1980",
       "Compounds": [
@@ -15604,7 +15770,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_250mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_250mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -15627,6 +15793,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_250mg_Austin1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Austin 1980 - 250 mg over 15 min (Regimen 2) - Erythromycin - IV - 250 mg - Serum - agg. (n=5)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_250mg_Austin1980|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Austin 1980 - 250 mg over 15 min (Regimen 2) - Erythromycin - IV - 250 mg - Urine - agg. (n=5)"
+        }
       ],
       "Individual": "Austin1980",
       "Compounds": [
@@ -15868,7 +16046,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_300mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_300mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -15891,6 +16069,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_300mg_Pasic1987|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Pasic 1987 - Without oral theophylline co-administration - Erythromycin - IV - 300 mg - Serum - agg. (n=8)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_300mg_Pasic1987|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Pasic 1987 - Without oral theophylline co-administration - Erythromycin - IV - 300 mg - Urine - agg. (n=8)"
+        }
       ],
       "Individual": "Pasic1987",
       "Compounds": [
@@ -16132,7 +16322,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_500mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_500mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -16155,6 +16345,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_500mg_Austin1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Austin 1980 - 500 mg over 15 min (Regimen 2) - Erythromycin - IV - 500 mg - Serum - agg. (n=4)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_500mg_Austin1980|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Austin 1980 - 500 mg over 15 min (Regimen 2) - Erythromycin - IV - 500 mg - Urine - agg. (n=4)"
+        }
       ],
       "Individual": "Austin1980",
       "Compounds": [
@@ -16397,7 +16599,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_500mg_30min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_500mg_30min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
           "Unit": "min"
         },
@@ -16421,6 +16623,23 @@
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma Unbound (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_500mg_Barre1987|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Barre 1987 - 500 mg over 30 min, total concentrations - Erythromycin - IV - 500 mg - Serum - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "IV_500mg_Barre1987|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Barre 1987 - 500 mg over 30 min, unbound concentrations - Erythromycin - IV - 500 mg - Serum - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_500mg_Barre1987|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Barre 1987 - 500 mg over 30 min, total concentrations - Erythromycin - IV - 500 mg - Urine - agg. (n=6)"
+        }
       ],
       "Individual": "Barre1987",
       "Compounds": [
@@ -16683,7 +16902,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_500mg_60min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_500mg_60min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
@@ -16705,6 +16924,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_500mg_Simon1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Simon 1980 - 500 mg IV - Erythromycin - IV - 500 mg - Serum - agg. (n=6)"
+        }
       ],
       "Individual": "Simon1980",
       "Compounds": [
@@ -16878,7 +17104,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV_900mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV_900mg_15min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -16901,6 +17127,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "IV_900mg_Austin1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Austin 1980 - 900 mg over 15 min (Regimen 2) - Erythromycin - IV - 900 mg - Serum - agg. (n=3)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "IV_900mg_Austin1980|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Austin 1980 - 900 mg over 15 min (Regimen 2) - Erythromycin - IV - 900 mg - Urine - agg. (n=3)"
+        }
       ],
       "Individual": "Austin1980",
       "Compounds": [
@@ -17178,7 +17416,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_1000mg_Josefsson1982a|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Josefsson1982a|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.607562,
           "Unit": "ml/kg"
         },
@@ -17200,6 +17438,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "1000mg_Josefsson1982a_pellets|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Josefsson 1982a - erythromycin base 1000 mg - Erythromycin - PO - 1000 mg - Serum - agg. (n=23)"
+        }
       ],
       "Individual": "Josefsson1982a",
       "Compounds": [
@@ -17515,107 +17760,107 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_MD|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
@@ -17637,6 +17882,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Birkett1990_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Birkett 1990 - 250 mg erythromycin, multiple dose - Erythromycin - PO - 250 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Birkett1990",
       "Compounds": [
@@ -17930,7 +18182,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Birkett1990_SD|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Birkett1990_SD|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.422475,
           "Unit": "ml/kg"
         },
@@ -17952,6 +18204,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Birkett1990_SD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Birkett 1990 - 250 mg erythromycin, single dose - Erythromycin - PO - 250 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Birkett1990",
       "Compounds": [
@@ -18236,16 +18495,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Josefsson1982a|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 2.607562,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Erythromycin|Blood/Plasma concentration ratio",
           "Value": 1.6853241644,
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Oral_250mg_Josefsson1982a|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 2.607562,
+          "Unit": "ml/kg"
         },
         {
           "Path": "Undefined Liver|Reference concentration",
@@ -18265,6 +18524,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Josefsson1982a_pellets|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Josefsson 1982a - erythromycin base 250 mg - Erythromycin - PO - 250 mg - Serum - agg. (n=23)"
+        }
       ],
       "Individual": "Josefsson1982a",
       "Compounds": [
@@ -18547,16 +18813,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Josefsson1982a|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 2.607562,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Erythromycin|Blood/Plasma concentration ratio",
           "Value": 1.6853241644,
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Oral_500mg_Josefsson1982a|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 2.607562,
+          "Unit": "ml/kg"
         },
         {
           "Path": "Undefined Liver|Reference concentration",
@@ -18576,6 +18842,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Josefsson1982a_pellets|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Josefsson 1982a - erythromycin base 500 mg - Erythromycin - PO - 500 mg - Serum - agg. (n=23)"
+        }
       ],
       "Individual": "Josefsson1982a",
       "Compounds": [
@@ -18891,57 +19164,57 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_500mg_Kivistö1997|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -18963,6 +19236,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Kivistö1997_pellets_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kivistö 1997 - with Perpetrator (Erythromycin) - Erythromycin - PO - 500 mg - Plasma - agg. (n=8)"
+        }
       ],
       "Individual": "Kivistö1997",
       "Compounds": [
@@ -19219,7 +19499,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Schreiner1984|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Schreiner1984|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.44619,
           "Unit": "ml/kg"
         },
@@ -19241,6 +19521,18 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Schreiner1984_pellets|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Schreiner 1984 - Part I, base (enteric-coated pellets) - Erythromycin - PO - 500 mg - Serum - agg. (n=14)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Schreiner1984_pellets|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Schreiner 1984 - Part II, base (enteric-coated pellets) - Erythromycin - PO - 500 mg - Serum - agg. (n=10)"
+        }
       ],
       "Individual": "Schreiner1984",
       "Compounds": [
@@ -19547,27 +19839,27 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_enteric-coated-tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
@@ -19589,6 +19881,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1980_base_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1980 - Base, five doses, every 6 h - Erythromycin - PO - 250 mg - Serum - agg. (n=24)"
+        }
       ],
       "Individual": "Yakatan1980",
       "Compounds": [
@@ -19874,7 +20173,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_DiSanto1981|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_DiSanto1981|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -19896,6 +20195,18 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_DiSanto1981|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "DiSanto 1981 - 2h fast, enteric-coated erythromycin tablets (study 2) - Erythromycin - PO - 500 mg - Serum - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_DiSanto1981|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "DiSanto 1981 - Overnight fast, enteric-coated erythromycin tablets (study 1) - Erythromycin - PO - 500 mg - Serum - agg. (n=21)"
+        }
       ],
       "Individual": "DiSanto1981",
       "Compounds": [
@@ -20209,7 +20520,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Kroboth1982|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Kroboth1982|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.42169,
           "Unit": "ml/kg"
         },
@@ -20231,6 +20542,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Kroboth1982|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kroboth 1982 - Normal subjects - Erythromycin - PO - 500 mg - Serum - agg. (n=6)"
+        }
       ],
       "Individual": "Kroboth1982",
       "Compounds": [
@@ -20515,7 +20833,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Posti1983_A1/E|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Posti1983_A1/E|Erythromycin_Weibull_enteric-coated-tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.238806,
           "Unit": "ml/kg"
         },
@@ -20537,6 +20855,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Posti1982_E|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Posti 1983 - Formulation E (enteric-coated tablets, ery base), fasted - Erythromycin - PO - 500 mg - Serum - agg. (n=15)"
+        }
       ],
       "Individual": "Posti1983_A1/E",
       "Compounds": [
@@ -20855,37 +21180,37 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1000mg_Miglioli1990_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -20907,6 +21232,18 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "1000mg_Miglioli1990_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Miglioli 1990 - First dose, young subjects - Erythromycin - PO - 1 g - Serum - agg. (n=8)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "1000mg_Miglioli1990_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Miglioli 1990 - Seventh dose, young subjects - Erythromycin - PO - 1 g - Serum - agg. (n=8)"
+        }
       ],
       "Individual": "Miglioli1990",
       "Compounds": [
@@ -21344,7 +21681,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_1500mg_Shanson1984|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_1500mg_Shanson1984|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -21366,6 +21703,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "1500mg_Shanson1984|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Shanson 1984 - Erythromycin stearate - Erythromycin - PO - 1500 mg - Serum - agg. (n=11)"
+        }
       ],
       "Individual": "Shanson1984",
       "Compounds": [
@@ -21615,7 +21959,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Yakatan1979|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1979|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -21637,6 +21981,33 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1979|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1979 - Manufacturer Abbott - Erythromycin - PO - 250 mg - Serum - agg. (n=10)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1979|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1979 - Manufacturer Barr - Erythromycin - PO - 250 mg - Serum - agg. (n=10)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1979|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1979 - Manufacturer Bristol - Erythromycin - PO - 250 mg - Serum - agg. (n=10)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1979|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1979 - Manufacturer Mylan - Erythromycin - PO - 250 mg - Serum - agg. (n=10)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1979|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1979 - Manufacturer Purepac - Erythromycin - PO - 250 mg - Serum - agg. (n=10)"
+        }
       ],
       "Individual": "Yakatan1979",
       "Compounds": [
@@ -21972,7 +22343,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
@@ -21994,6 +22365,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1980_stearate|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1980 - Stearate, single dose - Erythromycin - PO - 250 mg - Serum - agg. (n=8)"
+        }
       ],
       "Individual": "Yakatan1980",
       "Compounds": [
@@ -22300,27 +22678,27 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_250mg_Yakatan1980_MD|Erythromycin_Weibull_filmtablet_250mg|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.199777,
           "Unit": "ml/kg"
         },
@@ -22342,6 +22720,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "250mg_Yakatan1980_stearate_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yakatan 1980 - Stearate, five doses, every 6 h - Erythromycin - PO - 250 mg - Serum - agg. (n=24)"
+        }
       ],
       "Individual": "Yakatan1980",
       "Compounds": [
@@ -22642,22 +23027,22 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Berend1979_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -22679,6 +23064,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Berend1979_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Berend 1979 - Erythromycin stearate - Erythromycin - PO - 500 mg - Plasma - agg. (n=10)"
+        }
       ],
       "Individual": "Berend1979",
       "Compounds": [
@@ -22963,142 +23355,142 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Brannan1995_MD|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.32,
           "Unit": "ml/kg"
         },
@@ -23120,6 +23512,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Brannan1995_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brannan 1995 - Erythromycin with placebo - Erythromycin - PO - 500 mg - Plasma - agg. (n=8)"
+        }
       ],
       "Individual": "Brannan1995",
       "Compounds": [
@@ -23371,7 +23770,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Henry1980|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Henry1980|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -23393,6 +23792,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Henry1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Henry 1980 - Erythromycin stearate - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)"
+        }
       ],
       "Individual": "Henry1980",
       "Compounds": [
@@ -23703,52 +24109,52 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Iliopoulou1982_MD|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -23770,6 +24176,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Iliopoulou1982_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iliopoulou 1982 - fourth day, before theophylline administration - Erythromycin - PO - 500 mg - Serum - agg. (n=6)"
+        }
       ],
       "Individual": "Iliopoulou1982",
       "Compounds": [
@@ -24021,7 +24434,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Josefsson1982a|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Josefsson1982a|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.607562,
           "Unit": "ml/kg"
         },
@@ -24043,6 +24456,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Josefsson1982a|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Josefsson 1982a - erythromycin stearate 500 mg (base equivalent) - Erythromycin - PO - 500 mg - Serum - agg. (n=23)"
+        }
       ],
       "Individual": "Josefsson1982a",
       "Compounds": [
@@ -24287,7 +24707,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Kavi1988|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Kavi1988|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -24309,6 +24729,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Kavi1988|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kavi 1988 - Serum levels - Erythromycin - PO - 500 mg - Serum - agg. (n=6)"
+        }
       ],
       "Individual": "Kavi1988",
       "Compounds": [
@@ -24620,97 +25047,97 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Malmborg1978_MD|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -24732,6 +25159,23 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Malmborg1978_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Malmborg 1978 - Day 7, every 8 h - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Malmborg1978_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Malmborg 1978 - Single dose after overnight fast - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Malmborg1978_MD|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Malmborg 1978 - Single dose before standardized breakfast - Erythromycin - PO - 500 mg - Plasma - agg. (n=15)"
+        }
       ],
       "Individual": "Malmborg1978",
       "Compounds": [
@@ -25214,7 +25658,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Parsons1977|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Parsons1977|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -25237,6 +25681,28 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Parsons1977|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Parsons 1977 - Erythromycin stearate, supine, normal subjects - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "500mg_Parsons1977|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Parsons 1977 - Erythromycin stearate, supine, normal subjects - Erythromycin - PO - 500 mg - Urine - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Parsons1977|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Parsons 1977 - Erythromycin stearate, walking, normal subjects - Erythromycin - PO - 500 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "500mg_Parsons1977|Organism|Kidney|Urine|Erythromycin|Fraction excreted to urine",
+          "ObservedData": "Parsons 1977 - Erythromycin stearate, walking, normal subjects - Erythromycin - PO - 500 mg - Urine - agg. (n=6)"
+        }
       ],
       "Individual": "Parsons1977",
       "Compounds": [
@@ -25583,7 +26049,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Posti1983_A1/E|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Posti1983_A1/E|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.238806,
           "Unit": "ml/kg"
         },
@@ -25605,6 +26071,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Posti1983_A1|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Posti 1983 - Formulation A1 (film-coated tabet, ery stearate), fasted - Erythromycin - PO - 500 mg - Serum - agg. (n=15)"
+        }
       ],
       "Individual": "Posti1983_A1/E",
       "Compounds": [
@@ -25853,7 +26326,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Posti1983_A2/RN|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Posti1983_A2/RN|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.173913,
           "Unit": "ml/kg"
         },
@@ -25875,6 +26348,18 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Posti1983_A2/RN|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Posti 1983 - Formulation A2 (film-coated tabet, ery stearate), study 2 - Erythromycin - PO - 500 mg - Serum - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Posti1983_A2/RN|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Posti 1983 - Formulation RN (film-coated tabet, ery stearate), study 2 - Erythromycin - PO - 500 mg - Serum - agg. (n=12)"
+        }
       ],
       "Individual": "Posti1983_A2/RN",
       "Compounds": [
@@ -26149,7 +26634,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Schreiner1984|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Schreiner1984|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 1.44619,
           "Unit": "ml/kg"
         },
@@ -26171,6 +26656,18 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Schreiner1984_stearate|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Schreiner 1984 - Part I, stearate tablet - Erythromycin - PO - 500 mg - Serum - agg. (n=14)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Schreiner1984_stearate|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Schreiner 1984 - Part II, stearate tablet - Erythromycin - PO - 500 mg - Serum - agg. (n=10)"
+        }
       ],
       "Individual": "Schreiner1984",
       "Compounds": [
@@ -26442,7 +26939,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg_Simon19080|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg_Simon19080|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -26464,6 +26961,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "500mg_Simon1980|Organism|PeripheralVenousBlood|Erythromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Simon 1980 - 500 mg stearate PO - Erythromycin - PO - 500 mg - Serum - agg. (n=10)"
+        }
       ],
       "Individual": "Simon1980",
       "Compounds": [
@@ -35650,11 +36154,6 @@
       "Name": "AUC",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Projects\\BAY_1002670_Vilaprisan_PBPK_support_0216\\Models\\Erythromycin\\GitHub\\Erythromycin-Model\\AUCratio.xlsx.Sheet1",
-          "Type": "String"
-        },
-        {
           "Name": "File",
           "Value": "AUCratio",
           "Type": "String"
@@ -37626,11 +38125,6 @@
       "Name": "AUCratio_Olkkola1993.PO",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Projects\\BAY_1002670_Vilaprisan_PBPK_support_0216\\Models\\Erythromycin\\GitHub\\Erythromycin-Model\\AUCratio.xlsx.PO",
-          "Type": "String"
-        },
-        {
           "Name": "File",
           "Value": "AUCratio",
           "Type": "String"
@@ -37699,11 +38193,6 @@
     {
       "Name": "AUCratio_Olkkola1993.IV",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Projects\\BAY_1002670_Vilaprisan_PBPK_support_0216\\Models\\Erythromycin\\GitHub\\Erythromycin-Model\\AUCratio.xlsx.IV",
-          "Type": "String"
-        },
         {
           "Name": "File",
           "Value": "AUCratio",
